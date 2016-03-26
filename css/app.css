@@ -29,3 +29,21 @@ body {
     font-size: 128px;
     color: #eee;
 }
+
+.abs-center {
+    position: absolute;
+    left: 50%;
+}
+
+.logo {
+    position: relative;
+    left: -50%;
+    border-radius: 6px;
+    top: -6px;
+    padding-top: 6px;
+    background: white;
+}
+
+.logo > img {
+    max-height: 200px;
+}
