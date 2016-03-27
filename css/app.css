@@ -2,7 +2,27 @@ body {
     padding-top: 64px;
 }
 
-.bakery-header {
+.big-title {
+    font-size: 8em;
+}
+
+.bakery-header-lg h1 {
+    color: #eee;
+}
+
+.bakery-header-sm h1 {
+    color: #eee;
+}
+
+.restaurant-header-lg h1 {
+    color: #eee;
+}
+
+.restaurant-header-sm h1 {
+    color: #eee;
+}
+
+.bakery-header-lg {
     padding: 150px 100px;
     background: linear-gradient(to left, rgba(0, 0, 0, 0), rgba(0, 0, 0, 1)), url('../img/bakery.jpg');
     background-size: cover;
@@ -11,23 +31,28 @@ body {
     border-bottom: 5px solid black;
 }
 
-.bakery-header h2 {
-    font-size: 128px;
-    color: #eee;
+.bakery-header-sm {
+    padding: 150px 0px;
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('../img/bakery.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
-.restaurant-header {
+.restaurant-header-lg {
     padding: 150px 100px;
+    background: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 1)), url('../img/dining-1.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.restaurant-header-sm {
+    padding: 150px 0px;
     background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('../img/dining-1.jpg');
     background-size: cover;
-    background-position: left;
+    background-position: center;
     background-repeat: no-repeat;
-    text-align: right;
-}
-
-.restaurant-header h2 {
-    font-size: 128px;
-    color: #eee;
 }
 
 .abs-center {
