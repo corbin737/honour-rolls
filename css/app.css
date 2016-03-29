@@ -64,8 +64,8 @@ body {
 /**
  * Homepage logo affix
  */
-.abs-center {
-  position: absolute;
+.static-logo {
+  position: fixed;
   left: 50%;
 }
 .logo {
