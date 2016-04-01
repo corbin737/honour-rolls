@@ -21,45 +21,58 @@ body {
 .big-title {
   font-size: 8em;
 }
-.bakery-header-lg h1,
-.bakery-header-sm h1,
-.restaurant-header-lg h1,
-.restaurant-header-sm h1 {
+.header-bg-styles {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  text-align: center;
+  padding: 150px 0px;
+}
+.header-bg-styles h1 {
   color: #eee;
 }
-.bg-styles {
+.bakery-header {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-}
-.bakery-header-lg {
-  padding: 150px 100px;
-  background: linear-gradient(to left, rgba(0, 0, 0, 0), #000000), url('../img/bakery.jpg');
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  border-bottom: 5px solid black;
-}
-.bakery-header-sm {
+  text-align: center;
   padding: 150px 0px;
-  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('../img/bakery.jpg');
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('../img/bakery.jpg');
+}
+.bakery-header h1 {
+  color: #eee;
+}
+@media (min-width: 992px) {
+  .bakery-header {
+    text-align: left;
+    padding-left: 100px;
+    border-bottom: 5px solid black;
+    background-image: linear-gradient(to right, #000000, rgba(0, 0, 0, 0)), url('../img/bakery.jpg');
+  }
+  .bakery-header h1 {
+    font-size: 8em;
+  }
+}
+.restaurant-header {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-}
-.restaurant-header-lg {
-  padding: 150px 100px;
-  background: linear-gradient(to right, rgba(0, 0, 0, 0), #000000), url('../img/dining-1.jpg');
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-}
-.restaurant-header-sm {
+  text-align: center;
   padding: 150px 0px;
-  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('../img/dining-1.jpg');
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('../img/dining-1.jpg');
+}
+.restaurant-header h1 {
+  color: #eee;
+}
+@media (min-width: 992px) {
+  .restaurant-header {
+    text-align: right;
+    padding-right: 100px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), #000000), url('../img/dining-1.jpg');
+  }
+  .restaurant-header h1 {
+    font-size: 8em;
+  }
 }
 /**
  * Homepage logo affix
