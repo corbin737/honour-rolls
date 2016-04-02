@@ -1,6 +1,5 @@
 body {
   padding-top: 64px;
-  padding-bottom: 200px;
 }
 hr {
   border-color: #d5d5d5;
@@ -110,4 +109,14 @@ hr {
 .gluten-free-logo {
   max-height: 200px;
   margin-bottom: 15px;
+}
+/**
+ * Footer
+ */
+footer {
+  margin-top: 50px;
+}
+footer .jumbotron {
+  margin-bottom: 0;
+  background-color: #e0e0e0;
 }
