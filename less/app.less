@@ -111,9 +111,14 @@ footer {
  */
 .chef-portrait {
     max-width: 200px;
-    float: left;
-    margin-left: 20px;
+}
+.chef-portrait-left {
+    .chef-portrait;
     margin-right: 20px;
+}
+.chef-portrait-right {
+    .chef-portrait;
+    margin-left: 20px;
 }
 
 /**
@@ -156,4 +161,25 @@ footer {
     max-width: 400px;
     width: 100%;
     margin-left: 20px;
+}
+
+/**
+ * In the Community
+ */
+.catering-img {
+    .event-img;
+}
+
+.carousel {
+    margin-top: 50px;
+    max-width: 580px;
+    width: 100%;
+
+    .carousel-inner {
+        background-color: black;
+
+        .item img {
+            opacity: 0.4;
+        }
+    }
 }

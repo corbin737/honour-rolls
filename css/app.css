@@ -110,9 +110,14 @@ footer .jumbotron {
  */
 .chef-portrait {
   max-width: 200px;
-  float: left;
-  margin-left: 20px;
+}
+.chef-portrait-left {
+  max-width: 200px;
   margin-right: 20px;
+}
+.chef-portrait-right {
+  max-width: 200px;
+  margin-left: 20px;
 }
 /**
  * Gluten Free section
@@ -149,4 +154,23 @@ footer .jumbotron {
   max-width: 400px;
   width: 100%;
   margin-left: 20px;
+}
+/**
+ * In the Community
+ */
+.catering-img {
+  max-width: 400px;
+  width: 100%;
+  margin-left: 20px;
+}
+.carousel {
+  margin-top: 50px;
+  max-width: 580px;
+  width: 100%;
+}
+.carousel .carousel-inner {
+  background-color: black;
+}
+.carousel .carousel-inner .item img {
+  opacity: 0.4;
 }
