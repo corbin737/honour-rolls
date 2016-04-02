@@ -1,5 +1,9 @@
 body {
   padding-top: 64px;
+  padding-bottom: 200px;
+}
+hr {
+  border-color: #d5d5d5;
 }
 /**
  * Navbar styling
@@ -91,4 +95,19 @@ body {
 }
 .logo img {
   max-height: 200px;
+}
+/**
+ * Staff section
+ */
+.chef-portrait {
+  max-width: 200px;
+  float: left;
+  margin-right: 20px;
+}
+/**
+ * Gluten Free section
+ */
+.gluten-free-logo {
+  max-height: 200px;
+  margin-bottom: 15px;
 }
