@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <title>Title | Honour Rolls</title>
+    <title>Special Events | Honour Rolls</title>
 
     <!-- Bootstrap -->
     <link href="/node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
@@ -38,7 +38,7 @@
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav">
-                    <li class="active"><a href="/">Home <span class="sr-only">(current)</span></a></li>
+                    <li><a href="/">Home</a></li>
                     <li class="dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Menus <span class="caret"></span></a>
                         <ul class="dropdown-menu">
@@ -47,7 +47,7 @@
                         </ul>
                     </li>
                     <li><a href="/about.html">About Us</a></li>
-                    <li><a href="/events.html">Special Events</a></li>
+                    <li class="active"><a href="/events.html">Special Events <span class="sr-only">(current)</span></a></li>
                     <li><a href="/community.html">In the Community</a></li>
                     <li><a href="/catering.html">Catering</a></li>
                     <li><a href="/contact.html">Contact</a></li>
@@ -57,7 +57,61 @@
     </nav>
 
     <main class="container">
+        <div class="page-header">
+            <h1>Special Events</h1>
+        </div>
+        <p class="lead">
+            Info on why we get involved and how we are involved in the community. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        </p>
 
+        <h2>Upcoming Events</h2>
+        <div class="panel-group" id="events" role="tablist" aria-multiselectable="true">
+            <div class="panel panel-default">
+                <div class="panel-heading" role="tab" id="event-heading-1">
+                    <h4 class="panel-title">
+                        <a role="button" data-toggle="collapse" data-parent="#events" href="#event-1" aria-expanded="true" aria-controls="event-1">
+                            Event 1 Name
+                        </a>
+                    </h4>
+                </div>
+                <div id="event-1" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="event-heading-1">
+                    <div class="panel-body">
+                        <img src="/img/event-1.jpg" alt="Event 1 Picture" class="pull-right event-img">
+                        Description of the event and how to get involved. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                    </div>
+                </div>
+            </div>
+            <div class="panel panel-default">
+                <div class="panel-heading" role="tab" id="event-heading-two">
+                    <h4 class="panel-title">
+                        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#events" href="#event-2" aria-expanded="false" aria-controls="event-2">
+                            Event 2 Name
+                        </a>
+                    </h4>
+                </div>
+                <div id="event-2" class="panel-collapse collapse" role="tabpanel" aria-labelledby="event-heading-two">
+                    <div class="panel-body">
+                        <img src="/img/event-2.jpg" alt="Event 2 Picture" class="pull-right event-img">
+                        Description of the event and how to get involved. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                    </div>
+                </div>
+            </div>
+            <div class="panel panel-default">
+                <div class="panel-heading" role="tab" id="event-heading-3">
+                    <h4 class="panel-title">
+                        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#events" href="#event-3" aria-expanded="false" aria-controls="event-3">
+                            Event 3 Name
+                        </a>
+                    </h4>
+                </div>
+                <div id="event-3" class="panel-collapse collapse" role="tabpanel" aria-labelledby="event-heading-3">
+                    <div class="panel-body">
+                        <img src="/img/event-3.jpg" alt="Event 3 Picture" class="pull-right event-img">
+                        Description of the event and how to get involved. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                    </div>
+                </div>
+            </div>
+        </div>
     </main>
 
     <footer>
