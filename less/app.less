@@ -26,6 +26,17 @@ hr {
 }
 
 /**
+ * Footer
+ */
+footer {
+    margin-top: 50px;
+    .jumbotron {
+        margin-bottom: 0;
+        background-color: darken(@jumbotron-bg, 10%);
+    }
+}
+
+/**
  * Homepage headers (for bakery and restaurant)
  */
 .big-title {
@@ -113,12 +124,10 @@ hr {
 }
 
 /**
- * Footer
+ * Bakery Menu
  */
-footer {
-    margin-top: 50px;
-    .jumbotron {
-        margin-bottom: 0;
-        background-color: darken(@jumbotron-bg, 10%);
+.sm-text-right {
+    @media (min-width: @screen-sm-min) {
+        text-align: right;
     }
 }
