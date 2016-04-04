@@ -5,7 +5,7 @@ hr {
   border-color: #d5d5d5;
 }
 /**
- * Navbar styling
+ * Navbar
  */
 .navbar-brand {
   padding: 8px;
@@ -106,7 +106,7 @@ footer .jumbotron {
   max-height: 200px;
 }
 /**
- * Staff section
+ * Styling for chef portrait (used on homepage and about page)
  */
 .chef-portrait {
   max-width: 200px;
@@ -120,7 +120,7 @@ footer .jumbotron {
   margin-left: 20px;
 }
 /**
- * Gluten Free section
+ * Gluten Free section of homepage
  */
 .gluten-free-logo {
   max-height: 200px;
