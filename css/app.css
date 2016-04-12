@@ -127,6 +127,12 @@ footer .jumbotron {
   margin-bottom: 15px;
 }
 /**
+ * Restaurant Menu
+ */
+.pad-bottom {
+  padding-bottom: 25px;
+}
+/**
  * Bakery Menu
  */
 @media (min-width: 768px) {
